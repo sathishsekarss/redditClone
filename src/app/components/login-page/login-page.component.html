@@ -1,0 +1,7 @@
+<div class="loginInputOutlet">
+    <form (ngSubmit)="verifyCredentials()">
+        <input name="username" type="text" pInputText [(ngModel)]="userName" placeholder="username">
+        <input name="password" type="password" pInputText [(ngModel)]="password" placeholder="password">
+        <button type="submit">Login</button>
+    </form>
+</div>
